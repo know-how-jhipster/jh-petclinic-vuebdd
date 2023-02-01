@@ -1,0 +1,30 @@
+{
+  "petclinicApp": {
+    "owners": {
+      "home": {
+        "title": "Owners",
+        "refreshListLabel": "Actualiser la liste",
+        "createLabel": "Créer un nouveau Owners",
+        "createOrEditLabel": "Créer ou éditer un Owners",
+        "search": "Recherche pour Owners",
+        "notFound": "Aucun Owners trouvé"
+      },
+      "created": "Un nouveau Owners a été créé avec l'identifiant {{ param }}",
+      "updated": "Le Owners avec l'identifiant {{ param }} a été mis à jour",
+      "deleted": "Le Owners avec l'identifiant {{ param }} a été supprimé",
+      "delete": {
+        "question": "Êtes-vous certain de vouloir supprimer le Owners {{ id }} ?"
+      },
+      "detail": {
+        "title": "Owners"
+      },
+      "id": "ID",
+      "firstname": "Firstname",
+      "lastname": "Lastname",
+      "address": "Address",
+      "city": "City",
+      "telephone": "Telephone",
+      "pets": "Pets"
+    }
+  }
+}

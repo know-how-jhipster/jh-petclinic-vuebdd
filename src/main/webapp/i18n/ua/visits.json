@@ -1,0 +1,27 @@
+{
+  "petclinicApp": {
+    "visits": {
+      "home": {
+        "title": "Visits",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Створити новий Visits",
+        "createOrEditLabel": "Створити чи редагувати Visits",
+        "search": "Знайти Visits",
+        "notFound": "No Visits found"
+      },
+      "created": "Новий Visits створений з ідентифікатором {{ param }}",
+      "updated": "Visits оновлений з ідентифікатором {{ param }}",
+      "deleted": "Visits видалений з ідентифікатором {{ param }}",
+      "delete": {
+        "question": "Ви впевнені, що хочете видалити Visits {{ id }}?"
+      },
+      "detail": {
+        "title": "Visits"
+      },
+      "id": "ID",
+      "visitdate": "Visitdate",
+      "description": "Description",
+      "pet": "Pet"
+    }
+  }
+}

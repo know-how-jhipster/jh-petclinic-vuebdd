@@ -1,0 +1,36 @@
+{
+  "applications": "*",
+  "changelogDate": "20230201141222",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "vets",
+  "fields": [
+    {
+      "fieldName": "firstname",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "32"
+    },
+    {
+      "fieldName": "lastname",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "32"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Vets",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "specialties",
+      "otherEntityRelationshipName": "vet",
+      "ownerSide": false,
+      "relationshipName": "specialty",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

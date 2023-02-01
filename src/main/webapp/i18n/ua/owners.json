@@ -1,0 +1,30 @@
+{
+  "petclinicApp": {
+    "owners": {
+      "home": {
+        "title": "Owners",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Створити новий Owners",
+        "createOrEditLabel": "Створити чи редагувати Owners",
+        "search": "Знайти Owners",
+        "notFound": "No Owners found"
+      },
+      "created": "Новий Owners створений з ідентифікатором {{ param }}",
+      "updated": "Owners оновлений з ідентифікатором {{ param }}",
+      "deleted": "Owners видалений з ідентифікатором {{ param }}",
+      "delete": {
+        "question": "Ви впевнені, що хочете видалити Owners {{ id }}?"
+      },
+      "detail": {
+        "title": "Owners"
+      },
+      "id": "ID",
+      "firstname": "Firstname",
+      "lastname": "Lastname",
+      "address": "Address",
+      "city": "City",
+      "telephone": "Telephone",
+      "pets": "Pets"
+    }
+  }
+}

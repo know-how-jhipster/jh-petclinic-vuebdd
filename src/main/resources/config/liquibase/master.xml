@@ -17,7 +17,16 @@
     <property name="datetimeType" value="datetime(6)" dbms="mariadb"/>
 
     <include file="config/liquibase/changelog/00000000000000_initial_schema.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230201141222_added_entity_Vets.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230201141223_added_entity_Specialties.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230201141224_added_entity_Types.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230201141225_added_entity_Owners.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230201141226_added_entity_Pets.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230201141227_added_entity_Visits.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-changelog - JHipster will add liquibase changelogs here -->
+    <include file="config/liquibase/changelog/20230201141223_added_entity_constraints_Specialties.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230201141226_added_entity_constraints_Pets.xml" relativeToChangelogFile="false"/>
+    <include file="config/liquibase/changelog/20230201141227_added_entity_constraints_Visits.xml" relativeToChangelogFile="false"/>
     <!-- jhipster-needle-liquibase-add-constraints-changelog - JHipster will add liquibase constraints changelogs here -->
     <!-- jhipster-needle-liquibase-add-incremental-changelog - JHipster will add incremental liquibase changelogs here -->
 </databaseChangeLog>

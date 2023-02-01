@@ -1,0 +1,25 @@
+{
+  "petclinicApp": {
+    "types": {
+      "home": {
+        "title": "Types",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Types",
+        "createOrEditLabel": "Dodaj lub edytuj: Types",
+        "search": "Szukaj Types",
+        "notFound": "No Types found"
+      },
+      "created": "Utworzono nowy obiekt typu Types z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Types z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Types z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Types {{ id }}?"
+      },
+      "detail": {
+        "title": "Types"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  }
+}
