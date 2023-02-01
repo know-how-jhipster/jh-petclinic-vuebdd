@@ -1,0 +1,26 @@
+{
+  "petclinicApp": {
+    "specialties": {
+      "home": {
+        "title": "Specialties",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Specialties",
+        "createOrEditLabel": "Создать или отредактировать Specialties",
+        "search": "Найти Specialties",
+        "notFound": "Specialties не найдено"
+      },
+      "created": "Новый Specialties создан с идентификатором {{ param }}",
+      "updated": "Specialties обновлен с идентификатором {{ param }}",
+      "deleted": "Specialties удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Specialties {{ id }}?"
+      },
+      "detail": {
+        "title": "Specialties"
+      },
+      "id": "ID",
+      "name": "Name",
+      "vet": "Vet"
+    }
+  }
+}

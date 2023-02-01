@@ -1,0 +1,34 @@
+{
+  "applications": "*",
+  "changelogDate": "20230201141227",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "visits",
+  "fields": [
+    {
+      "fieldName": "visitdate",
+      "fieldType": "Instant",
+      "fieldValidateRules": ["required"]
+    },
+    {
+      "fieldName": "description",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "255"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Visits",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "pets",
+      "otherEntityRelationshipName": "visits",
+      "relationshipName": "pet",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

@@ -1,0 +1,29 @@
+{
+  "petclinicApp": {
+    "pets": {
+      "home": {
+        "title": "Pets",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Pets erstellen",
+        "createOrEditLabel": "Pets erstellen oder bearbeiten",
+        "search": "Suche nach Pets",
+        "notFound": "Keine Pets gefunden"
+      },
+      "created": "Pets erstellt mit ID {{ param }}",
+      "updated": "Pets aktualisiert mit ID {{ param }}",
+      "deleted": "Pets gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Pets {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Pets"
+      },
+      "id": "ID",
+      "name": "Name",
+      "birthdate": "Birthdate",
+      "visits": "Visits",
+      "type": "Type",
+      "owner": "Owner"
+    }
+  }
+}

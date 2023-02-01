@@ -7,6 +7,12 @@
       "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
       "entities": {
         "main": "Entités",
+        "vets": "Vets",
+        "specialties": "Specialties",
+        "types": "Types",
+        "owners": "Owners",
+        "pets": "Pets",
+        "visits": "Visits",
         "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
       },
       "account": {

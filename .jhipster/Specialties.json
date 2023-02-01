@@ -1,0 +1,30 @@
+{
+  "applications": "*",
+  "changelogDate": "20230201141223",
+  "dto": "mapstruct",
+  "embedded": false,
+  "entityTableName": "specialties",
+  "fields": [
+    {
+      "fieldName": "name",
+      "fieldType": "String",
+      "fieldValidateRules": ["required", "maxlength"],
+      "fieldValidateRulesMaxlength": "32"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "name": "Specialties",
+  "pagination": "no",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "vets",
+      "otherEntityRelationshipName": "specialty",
+      "ownerSide": true,
+      "relationshipName": "vet",
+      "relationshipType": "many-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

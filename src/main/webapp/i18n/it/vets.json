@@ -1,0 +1,27 @@
+{
+  "petclinicApp": {
+    "vets": {
+      "home": {
+        "title": "Vets",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Genera un nuovo Vets",
+        "createOrEditLabel": "Genera o modifica un Vets",
+        "search": "Cerca Vets",
+        "notFound": "No Vets found"
+      },
+      "created": "&Egrave; stato generato un nuovo Vets con identificatore {{ param }}",
+      "updated": "&Egrave; stato aggiornato Vets identificato da {{ param }}",
+      "deleted": "&Egrave; stato eliminato Vets con identificatore {{ param }}",
+      "delete": {
+        "question": "Sei sicuro di volere eliminare Vets {{ id }}?"
+      },
+      "detail": {
+        "title": "Vets"
+      },
+      "id": "ID",
+      "firstname": "Firstname",
+      "lastname": "Lastname",
+      "specialty": "Specialty"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "petclinicApp": {
+    "vets": {
+      "home": {
+        "title": "Vets",
+        "refreshListLabel": "Liste aktualisieren",
+        "createLabel": "Vets erstellen",
+        "createOrEditLabel": "Vets erstellen oder bearbeiten",
+        "search": "Suche nach Vets",
+        "notFound": "Keine Vets gefunden"
+      },
+      "created": "Vets erstellt mit ID {{ param }}",
+      "updated": "Vets aktualisiert mit ID {{ param }}",
+      "deleted": "Vets gelöscht mit ID {{ param }}",
+      "delete": {
+        "question": "Soll Vets {{ id }} wirklich dauerhaft gelöscht werden?"
+      },
+      "detail": {
+        "title": "Vets"
+      },
+      "id": "ID",
+      "firstname": "Firstname",
+      "lastname": "Lastname",
+      "specialty": "Specialty"
+    }
+  }
+}

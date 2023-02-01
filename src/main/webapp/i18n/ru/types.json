@@ -1,0 +1,25 @@
+{
+  "petclinicApp": {
+    "types": {
+      "home": {
+        "title": "Types",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Types",
+        "createOrEditLabel": "Создать или отредактировать Types",
+        "search": "Найти Types",
+        "notFound": "Types не найдено"
+      },
+      "created": "Новый Types создан с идентификатором {{ param }}",
+      "updated": "Types обновлен с идентификатором {{ param }}",
+      "deleted": "Types удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Types {{ id }}?"
+      },
+      "detail": {
+        "title": "Types"
+      },
+      "id": "ID",
+      "name": "Name"
+    }
+  }
+}

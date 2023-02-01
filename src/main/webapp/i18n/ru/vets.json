@@ -1,0 +1,27 @@
+{
+  "petclinicApp": {
+    "vets": {
+      "home": {
+        "title": "Vets",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Vets",
+        "createOrEditLabel": "Создать или отредактировать Vets",
+        "search": "Найти Vets",
+        "notFound": "Vets не найдено"
+      },
+      "created": "Новый Vets создан с идентификатором {{ param }}",
+      "updated": "Vets обновлен с идентификатором {{ param }}",
+      "deleted": "Vets удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Vets {{ id }}?"
+      },
+      "detail": {
+        "title": "Vets"
+      },
+      "id": "ID",
+      "firstname": "Firstname",
+      "lastname": "Lastname",
+      "specialty": "Specialty"
+    }
+  }
+}

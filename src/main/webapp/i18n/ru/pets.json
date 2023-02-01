@@ -1,0 +1,29 @@
+{
+  "petclinicApp": {
+    "pets": {
+      "home": {
+        "title": "Pets",
+        "refreshListLabel": "Обновить список",
+        "createLabel": "Создать новый Pets",
+        "createOrEditLabel": "Создать или отредактировать Pets",
+        "search": "Найти Pets",
+        "notFound": "Pets не найдено"
+      },
+      "created": "Новый Pets создан с идентификатором {{ param }}",
+      "updated": "Pets обновлен с идентификатором {{ param }}",
+      "deleted": "Pets удален с идентификатором {{ param }}",
+      "delete": {
+        "question": "Вы уверены что хотите удалить Pets {{ id }}?"
+      },
+      "detail": {
+        "title": "Pets"
+      },
+      "id": "ID",
+      "name": "Name",
+      "birthdate": "Birthdate",
+      "visits": "Visits",
+      "type": "Type",
+      "owner": "Owner"
+    }
+  }
+}

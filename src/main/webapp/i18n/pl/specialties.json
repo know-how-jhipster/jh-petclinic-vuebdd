@@ -1,0 +1,26 @@
+{
+  "petclinicApp": {
+    "specialties": {
+      "home": {
+        "title": "Specialties",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Dodaj Specialties",
+        "createOrEditLabel": "Dodaj lub edytuj: Specialties",
+        "search": "Szukaj Specialties",
+        "notFound": "No Specialties found"
+      },
+      "created": "Utworzono nowy obiekt typu Specialties z identyfikatorem {{ param }}",
+      "updated": "Uaktualniono obiekt typu Specialties z identyfikatorem {{ param }}",
+      "deleted": "Usunięto obiekt typu Specialties z identyfikatorem {{ param }}",
+      "delete": {
+        "question": "Czy na pewno chcesz usunąć Specialties {{ id }}?"
+      },
+      "detail": {
+        "title": "Specialties"
+      },
+      "id": "ID",
+      "name": "Name",
+      "vet": "Vet"
+    }
+  }
+}
