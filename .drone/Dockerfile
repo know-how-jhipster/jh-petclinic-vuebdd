@@ -1,5 +1,8 @@
-FROM docker-registry.c2a2.com/jdk:openjdk-11-jre-slim
+ARG BASE_IMAGE
 ARG BUILD_VERSION
+
+FROM $BASE_IMAGE
+
 ENV APPLICATION_BUILD_VERSION=$BUILD_VERSION
 WORKDIR /opt/app
 USER javauser

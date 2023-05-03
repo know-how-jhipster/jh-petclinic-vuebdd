@@ -14,7 +14,7 @@ volumes:
 steps:
 
   - name: build
-    image: docker-registry.c2a2.com/svc-builder:openjdk-11-slim
+    image: docker-registry.continuousdelivery.store/svc-builder:ibm-semeru-runtimes-open-11-jdk-focal
     pull: if-not-exists
     volumes:
       - name: m2cache
@@ -25,8 +25,8 @@ steps:
       DEPLOYER_PASSWORD:
         from_secret: DEPLOYER_PASSWORD
     commands:
-      - ./gradlew test jacocoTestReport
-      - ./gradlew -Pprod clean bootJar
+      - ./gradlew test jacocoTestReport --warning-mode all
+      - ./gradlew -Pprod clean bootJar --warning-mode all
     when:
       event:
         - push
