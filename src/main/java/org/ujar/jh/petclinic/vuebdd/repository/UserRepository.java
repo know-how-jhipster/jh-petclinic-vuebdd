@@ -125,7 +125,7 @@ class UserRepositoryInternalImpl implements UserRepositoryInternal {
                 .filter(t -> t.getT2().isPresent())
                 .map(t -> {
                     Authority authority = new Authority();
-                    authority.setName(t.getT2().get());
+                    authority.setName(t.getT2().orElseThrow());
                     return authority;
                 })
                 .collect(Collectors.toSet())
