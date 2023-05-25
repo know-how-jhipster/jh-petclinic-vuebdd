@@ -14,7 +14,7 @@ volumes:
 steps:
 
   - name: build
-    image: docker-registry.continuousdelivery.store/svc-builder:ibm-semeru-runtimes-open-11-jdk-focal
+    image: know-how.store/svc-builder:ibm-semeru-runtimes-open-17-jdk-focal
     pull: if-not-exists
     volumes:
       - name: m2cache
