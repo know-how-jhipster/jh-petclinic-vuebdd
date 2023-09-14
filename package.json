@@ -131,7 +131,7 @@
     "copy-webpack-plugin": "11.0.0",
     "css-loader": "6.7.1",
     "css-minimizer-webpack-plugin": "4.0.0",
-    "cypress": "10.7.0",
+    "cypress": "13.2.0",
     "cypress-audit": "1.1.0",
     "eslint": "8.23.0",
     "eslint-plugin-cypress": "2.12.1",
