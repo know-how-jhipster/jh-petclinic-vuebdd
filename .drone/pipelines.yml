@@ -14,7 +14,7 @@ volumes:
 steps:
 
   - name: build
-    image: know-how.download/svc-builder:ibm-semeru-runtimes-open-17-jdk-focal
+    image: know-how.download/svc-builder:openjdk-17.0.2-slim
     pull: if-not-exists
     volumes:
       - name: m2cache
