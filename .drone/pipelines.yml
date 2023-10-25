@@ -25,6 +25,10 @@ steps:
       DEPLOYER_PASSWORD:
         from_secret: DEPLOYER_PASSWORD
     commands:
+      - javac -version
+      - node --version
+      - npm --version
+      - npx --version
       - ./gradlew test jacocoTestReport --warning-mode all
       - ./gradlew -Pprod clean bootJar --warning-mode all
     when:
