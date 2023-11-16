@@ -17,7 +17,7 @@ logging:
   level:
     ROOT: INFO
     tech.jhipster: INFO
-    org.ujar.jh.petclinic.vuebdd: INFO
+    dev.knowhowto.jh.petclinic.vuebdd: INFO
 
 management:
   metrics:

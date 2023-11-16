@@ -18,7 +18,7 @@ logging:
     ROOT: DEBUG
     tech.jhipster: DEBUG
     org.hibernate.SQL: DEBUG
-    org.ujar.jh.petclinic.vuebdd: DEBUG
+    dev.knowhowto.jh.petclinic.vuebdd: DEBUG
 
 management:
   health:

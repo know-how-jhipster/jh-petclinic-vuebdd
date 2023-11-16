@@ -1,4 +1,4 @@
-# This configuration is intended for development purpose, it's **your** responsibility to harden it for production
+# This configuration is intended for dev purpose, it's **your** responsibility to harden it for production
 version: '3.8'
 services:
   petclinic-prometheus:

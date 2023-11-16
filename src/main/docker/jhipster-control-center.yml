@@ -19,7 +19,7 @@
 #       - SPRING_CLOUD_DISCOVERY_CLIENT_SIMPLE_INSTANCES_MYAPP_1_URI=http://host.docker.internal:8082
 # Or add a new application named MyNewApp
 #       - SPRING_CLOUD_DISCOVERY_CLIENT_SIMPLE_INSTANCES_MYNEWAPP_0_URI=http://host.docker.internal:8080
-# This configuration is intended for development purpose, it's **your** responsibility to harden it for production
+# This configuration is intended for dev purpose, it's **your** responsibility to harden it for production
 
 #### IMPORTANT
 # If you choose Consul or Eureka mode:

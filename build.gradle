@@ -25,7 +25,7 @@ plugins {
     //jhipster-needle-gradle-plugins - JHipster will add additional gradle plugins here
 }
 
-group = "org.ujar.jh.petclinic.vuebdd"
+group = "dev.knowhowto.jh.petclinic.vuebdd"
 version = "23.0.0-SNAPSHOT"
 
 description = ""
@@ -82,7 +82,7 @@ eclipse {
 defaultTasks "bootRun"
 
 springBoot {
-    mainClass = "org.ujar.jh.petclinic.vuebdd.PetclinicApp"
+    mainClass = "dev.knowhowto.jh.petclinic.vuebdd.PetclinicApp"
 }
 
 test {
