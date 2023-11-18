@@ -9,7 +9,7 @@ servers:
     description: Development server
   - url: https://localhost:8080/api
     description: Development server with TLS Profile
-paths: {}
+paths: { }
 components:
   responses:
     Problem:
@@ -36,5 +36,5 @@ components:
       description: OpenID Connect authentication with KeyCloak
       openIdConnectUrl: http://localhost:9080/realms/jhipster/.well-known/openid-configuration
 security:
-  - oauth: [jhipster, email, profile]
-  - openId: [jhipster, email, profile]
+  - oauth: [ jhipster, email, profile ]
+  - openId: [ jhipster, email, profile ]
