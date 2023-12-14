@@ -1,4 +1,4 @@
-# This configuration is intended for development purpose, it's **your** responsibility to harden it for production
+# This configuration is intended for dev purpose, it's **your** responsibility to harden it for production
 version: '3.8'
 services:
   petclinic-prometheus:
@@ -19,7 +19,7 @@ services:
     volumes:
       - ./grafana/provisioning/:/etc/grafana/provisioning/
     environment:
-      - GF_SECURITY_ADMIN_PASSWORD=admin
+      - GF_SECURITY_ADMIN_PASSWORD=changeme
       - GF_USERS_ALLOW_SIGN_UP=false
       - GF_INSTALL_PLUGINS=grafana-piechart-panel
     # If you want to expose these ports outside your dev PC,

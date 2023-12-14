@@ -1,7 +1,7 @@
 apply plugin: "war"
 
 bootWar {
-    mainClass = "org.ujar.jh.petclinic.vuebdd.PetclinicApp"
+    mainClass = "dev.knowhowto.jh.petclinic.vuebdd.PetclinicApp"
     includes = ["WEB-INF/**", "META-INF/**"]
     webXml = file("${project.rootDir}/src/main/webapp/WEB-INF/web.xml")
 }

@@ -4,7 +4,7 @@
 <configuration scan="true">
     <include resource="org/springframework/boot/logging/logback/base.xml"/>
 
-    <logger name="org.ujar.jh.petclinic.vuebdd" level="INFO"/>
+    <logger name="dev.knowhowto.jh.petclinic.vuebdd" level="INFO"/>
 
     <logger name="tech.jhipster" level="WARN"/>
 

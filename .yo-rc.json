@@ -32,7 +32,7 @@
     "microfrontends": [],
     "nativeLanguage": "en",
     "otherModules": [],
-    "packageName": "org.ujar.jh.petclinic.vuebdd",
+    "packageName": "dev.knowhowto.jh.petclinic.vuebdd",
     "pages": [],
     "prodDatabaseType": "mariadb",
     "reactive": true,
