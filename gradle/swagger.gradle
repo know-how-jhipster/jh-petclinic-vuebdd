@@ -8,8 +8,8 @@ openApiGenerate {
     generatorName = "spring"
     inputSpec = "$rootDir/src/main/resources/swagger/api.yml".toString()
     outputDir = "$buildDir/openapi".toString()
-    apiPackage = "org.ujar.jh.petclinic.vuebdd.web.api"
-    modelPackage = "org.ujar.jh.petclinic.vuebdd.service.api.dto"
+    apiPackage = "dev.knowhowto.jh.petclinic.vuebdd.web.api"
+    modelPackage = "dev.knowhowto.jh.petclinic.vuebdd.service.api.dto"
     apiFilesConstrainedTo = [""]
     modelFilesConstrainedTo = [""]
     supportingFilesConstrainedTo = ["ApiUtil.java"]
